@@ -13,7 +13,7 @@ WebSocket is the internet protocol that allows for full-duplex communication bet
 2. @types/socket.io:- npm i @types/socket.io
 
 #### In Frontend
-1. bootstrap:- npm i bootstrap
+1. bootstrap:- *npm i bootstrap*
 2. @ng-bootstrap/ng-bootstrap:-npm i @ng-bootstrap/ng-bootstrap
 3. @angular/localize (required, if an angular version is greater or equal to 10):- npm i @angular/localize
 4. socket.io-client:- npm i socket.io-client
