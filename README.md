@@ -7,11 +7,12 @@ WebSocket is the internet protocol that allows for full-duplex communication bet
 *Socket.IO is a library that enables real-time, bidirectional and event-based communication between that browser and the server. On the server side i have used node and express. For the client side I have used angular and socket.io-client npm package*
 
 ### Some external libraries have been used in this project and below are the details for those libraries.
-In Backend.
+
+#### In Backend.
 1. socket.io:- npm i socket.io
 2. @types/socket.io:- npm i @types/socket.io
 
-In Frontend
+#### In Frontend
 1. bootstrap:- npm i bootstrap
 2. @ng-bootstrap/ng-bootstrap:-npm i @ng-bootstrap/ng-bootstrap
 3. @angular/localize (required, if an angular version is greater or equal to 10):- npm i @angular/localize
