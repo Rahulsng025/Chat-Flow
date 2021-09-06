@@ -2,12 +2,15 @@ import { Injectable } from '@angular/core';
 import {Observable } from 'rxjs';
 import * as io from 'socket.io-client'
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class ChatService {
+  authToken: any;
+  user:any
  
-  constructor() { }
+  constructor( ) { }
 
   // Connection establised 
   // io socket is listening on the same socket where hhtp server in runnig on 3000
@@ -59,3 +62,5 @@ export class ChatService {
 }
 
 }
+
+
