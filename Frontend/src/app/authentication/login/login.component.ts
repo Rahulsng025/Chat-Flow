@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
   username: String;
   password: String;
 
+
   constructor(private _authService: AuthService, 
     private router:Router,
     private _flashMessageService: FlashMessagesService) { }
@@ -38,5 +39,7 @@ export class LoginComponent implements OnInit {
       console.log(data);
     })
   }
+
+  
 
 }
